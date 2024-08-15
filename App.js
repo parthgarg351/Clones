@@ -1,4 +1,8 @@
-const heading2 = React.createElement("h1", { id: "heading", xyz: "hello" },//these are called props
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
+    const heading2 = React.createElement("h1", { id: "heading", xyz: "hello" },//these are called props
      "Hello World From React"); //this is called children   
      //heading2 is object created by react
      const root2 = ReactDOM.createRoot(document.getElementById("root"));
@@ -19,7 +23,7 @@ const heading2 = React.createElement("h1", { id: "heading", xyz: "hello" },//the
      */
     const heading3 = React.createElement("div",{id:"parent"},[
         React.createElement("div",{id:"child"},[
-            React.createElement("h1",{},"Hi I am a H1 tag."),
+            React.createElement("h1",{},"Hi I am a H10 tag."),
             React.createElement("h2",{},"hi I am a H2 tag")]),
             React.createElement("div",{id:"child"},[
             React.createElement("h1",{},"Hi I am a H1 tag."),
